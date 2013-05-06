@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="701c25e1-43b8-474f-8aef-a57237f1a0fd"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="a2a8e67e-8be1-44f4-8ffb-e34a889c7957"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="749091a4-2168-41fc-9755-36a8f48d756d"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e46bf5ed-af6d-434f-95a2-8997f1a62dce"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c0067668-208d-47d5-b91c-a6d76a4e85e8"
+                  LastKnownName="Action1Zmieniono"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode
+            Id="c72287e7-ed20-4b5f-a244-d1b0de9c1040"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="c0067668-208d-47d5-b91c-a6d76a4e85e8"
+            name="Action1Zmieniono"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9953d782-12e8-4569-a338-7c7b2aedd53f"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="c72287e7-ed20-4b5f-a244-d1b0de9c1040"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="423949af-71c7-4967-b465-d567a3d573e3"
+        name="Activity2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="37d26cde-0ed1-42ca-b104-f075fd28e6be"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cb6e17e1-dfa6-470f-9e29-d0c13b70e9cd"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="10477f41-91f7-453f-a6d4-54cb991a57eb"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode
+            Id="10477f41-91f7-453f-a6d4-54cb991a57eb"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="22c8ae1a-68e0-45c7-9492-72ab3566f23c"
+        name="Activity3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="8ad88b9c-4876-4fb3-adb6-bbb55c094544"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <initialNode
+            Id="345e5f73-1873-481b-a15a-67ac5eb56937"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2d1cf0bd-2b91-4804-9f07-33eea41c841b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ac7a9f7d-386c-4b6e-9148-aee059014b44"
+                  LastKnownName="Action1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="ac7a9f7d-386c-4b6e-9148-aee059014b44"
+            name="Action1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e9995223-50d2-437e-aef4-f4ac350b4c6d"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="83ab36f6-9860-4834-a085-c0d54eeb333d"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="83ab36f6-9860-4834-a085-c0d54eeb333d"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f54ca759-eba5-4d12-9fac-1eafd55219fd"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="8ad88b9c-4876-4fb3-adb6-bbb55c094544"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="4808984c-8318-4ce1-94db-8e06a396fa7c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ac7a9f7d-386c-4b6e-9148-aee059014b44"
+                  LastKnownName="Action1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="35f493f7-14c2-4a42-8c26-b25eb9582745"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="55a28ac5-41b3-4720-b3ce-560619f0371f"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="ef1de3b6-51da-4bcc-a571-8fb3bd917740"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="475df69d-6289-4630-aa1a-1ad589d0a833"
+        name="Artifact1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="354444d7-8e57-4f19-8c28-83e02208ae3c"
+        name="UseCase2"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="ef1de3b6-51da-4bcc-a571-8fb3bd917740"
+            LastKnownName="Subsystem1"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="969dbccc-e5cf-4f75-9c15-d2e2ede7ea2d"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3839cd46-89ba-4502-b0d4-382396492a2f"
+        name="Class2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2e2507cc-1860-4099-8080-31416c077a26"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="b4f261c7-b803-4364-9bf5-bac438ade8a2"
+        name="Enumeration1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

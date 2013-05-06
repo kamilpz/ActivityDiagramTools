@@ -1,0 +1,1 @@
+c:\users\kamil\documents\visual studio 2012\Projects\ActivityDiagramTools\ActivityDiagramTools\bin\Debug\ActivityDiagramTools.exe.config

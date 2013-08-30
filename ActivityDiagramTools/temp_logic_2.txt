@@ -1,0 +1,30 @@
+Flow(#Act1, #Act2)
+ini= #Act1 / fin= #Act2
+<>#Act1 
+<>#Act2
+#Act1 => <>#Act2 
+#Act2 => ~<>#Act2
+
+Fork(#Fork1, #Act1, #Act2):
+ini= #Fork1 / fin= #Act1 & #Act2
+<>#Fork1 
+<>#Act1 
+<>#Act2
+#Fork1 => <>#Act1 & <>#Act2
+(#Act1 | #Act2) => ~<>#Fork1
+[]~(#Fork1 & (#Act1 | #Act2))
+
+Dec(#Dec1, #Act1, #Act2):
+ini= #Dec1 / fin= (#Act1 & ~#Act2) | (~#Act1 & #Act2)
+<>#Dec1
+<>#Act1 | <>#Act2
+#Dec1 => ((<>#Act1 & ~<>#Act2) | (~<>#Act1 & <>#Act2))
+#Act1 | #Act2 => ~<>#Dec1
+
+Loop(#Dec1,#Act1,#Act2):
+ini= #Dec1 / fin= #Act1
+<>#Dec1 
+<>#Act1 
+#Dec1 => <>#Act1
+#Act2 => <>#Act1
+(#Act1 | #Act2) => ~<>#Dec1
